@@ -22,12 +22,12 @@ In addition you will need another dataset that will be used solely to reproduce 
 - 'plot of the loss functions.xlsx'
 
 Graphs:
-To reproduce the graphs 1,2,3,4,5 and 6 as well as table 2, you  need the following python file:
+To reproduce the graphs 1, 2, 3, 4, 5 and 6 as well as table 2, you  need the following python file:
 1. 'plots for the loss functions.py'
 
-- Reproducing graphs 7,8 and 9 is integrated with the correlation coefficients python file (below).
-- Repoducing table 3 is integrated with the missing value main python file (below).
-- Reproducing tables 4, 5 and 6 as well as graphs 10,11,12 is integrated with the model building main python file (below).
+- Reproducing graphs 7, 8 and 9, is part of the correlation coefficients python file (below).
+- Repoducing table 3, is part of the missing value main python file (below).
+- Reproducing tables 4, 5 and 6 as well as graphs 10, 11 and 12, is part of the model building main python file (below).
 
 # Missing Values
 In this study, we deployed five different techniques to deal with missing values and compared their results before finally selecting the most optimal one for our dataset:
