@@ -1,3 +1,12 @@
+# Introduction
+In this study, we performed a systematic and empirical study of loss functions that can optimize forecasting of day-ahead electricity spot prices. We first outline a set of properties that such a loss function should meet. We proposed Theil UII-S as a novel loss function, which is derived from Theil’s forecast accuracy coefficient. We also implemented five neural network models and trained them on the two most used loss functions—mean squared error and mean absolute error—and our Theil UII-S. We finally tested our models on a real dataset of the electricity spot market of Norway. Our results show that Theil UII-S provides more accurate forecasts on the average and best- and worst-case scenarios, converges faster, is twice differentiable, and has a variable gradient
+
+# Authors:
+- Ahmad AMine Loutfi, PhD Candidate, Norwegian Univeristy of Science and Technology.
+- Mengtao Sun, PhD Candidate, Norwegian Univeristy of Science and Technology.
+- Ijlal Loutfi, postdoctoral researcher, Norwegian Univeristy of Science and Technology
+- Per Bjarte Solibakke, Professor, Norwegian Univeristy of Science and Technology
+
 # Notes
 We recommend creating a folder entitled 'Time Series' and saving all the python file in it. This will allow you including files paths that will point to modules we created and that you need to import
 
