@@ -19,7 +19,7 @@ The main dataset set used is entitled:
 - ' #E_data.xlsx'. 
 
 In addition you will need another dataset to reproduce the plots plot of the loss functions (MAE,MSE, Theil UI, Theil UII, Theil UII square) where the true target value is 100, and the predicted values range between -10,000 to 10,000. It is entitled:
--'plot of the loss functions.xlsx'
+- 'plot of the loss functions.xlsx'
 
 # Missing Values
 In this study, we deployed five different techniques to deal with missing values and compared their results before finally selecting the most optimal one for our dataset:
