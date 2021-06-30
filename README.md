@@ -2,7 +2,19 @@
 We recommend creating a folder entitled 'Time Series' and saving all the python file in it. This will allow you including files paths that will point to modules we created and that you need to import
 
 # Dataset
-Our dataset includes the consecutive recordings of 2600 days from January 2nd, 2013 and February 14th, 2020. After the preprocessing phase, the dataset was divided into a training set (the first 1600 days), validation set (the next 400 days), and test set (the last 600 days).
+We analyzed the problem of day-ahead electricity spot price forecasting in Norway. 
+
+Our dataset includes the consecutive recordings of 2600 days from January 2nd, 2013 and February 14th, 2020 (source NORDPOOL https://www.nordpoolgroup.com/). After the preprocessing phase, the dataset was divided into a training set (the first 1600 days), validation set (the next 400 days), and test set (the last 600 days).
+
+We used seven input variables selected (explanatory variables):
+
+1. Electricity consumption prognosis, MWh
+2. Electricity production prognosis, MWh
+3. Wind prognosis, MWh
+4. One quarter forward contract price, EUR
+5. One year forward contract price, EUR
+6. Brent oil price prognosis, EUR
+7. Coal price, EUR
 
 # Missing Values
 In this study, we deployed five different techniques to deal with missing values and compared their results before finally selecting the most optimal one for our dataset:
