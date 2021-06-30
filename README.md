@@ -2,7 +2,7 @@
 We recommend creating a folder entitled 'Time Series' and saving all the python file in it. This will allow you including files paths that will point to modules we created and that you need to import
 
 # Dataset
-
+Our dataset includes the consecutive recordings of 2600 days from January 2nd, 2013 and February 14th, 2020. After the preprocessing phase, the dataset was divided into a training set (the first 1600 days), validation set (the next 400 days), and test set (the last 600 days).
 
 # Missing Values
 In this study, we deployed five different techniques to deal with missing values and compared their results before finally selecting the most optimal one for our dataset:
@@ -16,8 +16,8 @@ In this study, we deployed five different techniques to deal with missing values
 KNN performs best on our dataset. Therefore, we used it to fill the values of our missing data points in the final experimental design. 
 
 # Correlation Coefficient
+To solidify our choice of input variables for the dataset, the correlation between its different features (target and explanatory) was explored by computing the Pearson, Spearman, and Kendall correlation matrices.
 
 # Models Building
-
-
-# Graphs and Tables
+To ensure that our results were robust and not specific to any one neural network architecture, we developed five models to test our loss function: FFNN, convolutional neural network (CNN), recursive neural network (RNN), long-short term memory neural network (LSTM), and gated recurrent unit (GRU) neural network.
+Our design follows the principles of simplicity, where we keep each model at 1 hidden layer with 64 corresponding neurons. As the activation function, we primarily used ReLU. We also used the RMSprop as the optimization algorithm for the models’ stochastic gradient descent.
