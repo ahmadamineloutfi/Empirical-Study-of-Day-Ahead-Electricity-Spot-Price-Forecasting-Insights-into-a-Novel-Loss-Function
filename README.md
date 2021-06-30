@@ -18,8 +18,16 @@ We used seven input variables selected (explanatory variables):
 The main dataset set used is entitled: 
 - ' #E_data.xlsx'. 
 
-In addition you will need another dataset to reproduce the plots plot of the loss functions (MAE,MSE, Theil UI, Theil UII, Theil UII square) where the true target value is 100, and the predicted values range between -10,000 to 10,000. It is entitled:
+In addition you will need another dataset that will be used solely to reproduce the plots of the loss functions (MAE,MSE, Theil UI, Theil UII, Theil UII square) where the true target value is 100, and the predicted values range between -10,000 to 10,000. It is entitled:
 - 'plot of the loss functions.xlsx'
+
+Graphs:
+To reproduce the graphs 1,2,3,4,5 and 6 as well as table 2, you  need the following python file:
+1. 'plots for the loss functions.py'
+
+- Reproducing graphs 7,8 and 9 is integrated with the correlation coefficients python file (below).
+- Repoducing table 3 is integrated with the missing value main python file (below).
+- Reproducing tables 4, 5 and 6 as well as graphs 10,11,12 is integrated with the model building main python file (below).
 
 # Missing Values
 In this study, we deployed five different techniques to deal with missing values and compared their results before finally selecting the most optimal one for our dataset:
@@ -53,7 +61,6 @@ To reproduce the results you need the following python files:
 # Models Building
 To ensure that our results were robust and not specific to any one neural network architecture, we developed five models to test our loss function: FFNN, convolutional neural network (CNN), recursive neural network (RNN), long-short term memory neural network (LSTM), and gated recurrent unit (GRU) neural network.
 Our design follows the principles of simplicity, where we keep each model at 1 hidden layer with 64 corresponding neurons. As the activation function, we primarily used ReLU. We also used the RMSprop as the optimization algorithm for the models’ stochastic gradient descent.
-
 
 To reproduce the results you need the following python files:
 1. 'main csv.py': to import the main file.
