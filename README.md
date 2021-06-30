@@ -4,7 +4,7 @@ In this study, we performed a systematic and empirical study of loss functions t
 # Authors:
 - Ahmad AMine Loutfi.PhD Candidate; Norwegian Univeristy of Science and Technology.
 - Mengtao Sun.PhD Candidate; Norwegian Univeristy of Science and Technology.
-- Ijlal Loutfi.Doctor; Norwegian Univeristy of Science and Technology
+- Ijlal Loutfi.Dr; Norwegian Univeristy of Science and Technology
 - Per Bjarte Solibakke.Professor; Norwegian Univeristy of Science and Technology
 
 # Notes
