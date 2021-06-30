@@ -7,7 +7,6 @@ We analyzed the problem of day-ahead electricity spot price forecasting in Norwa
 Our dataset includes the consecutive recordings of 2600 days from January 2nd, 2013 and February 14th, 2020 (source NORDPOOL https://www.nordpoolgroup.com/). After the preprocessing phase, the dataset was divided into a training set (the first 1600 days), validation set (the next 400 days), and test set (the last 600 days).
 
 We used seven input variables selected (explanatory variables):
-
 1. Electricity consumption prognosis, MWh
 2. Electricity production prognosis, MWh
 3. Wind prognosis, MWh
@@ -15,6 +14,10 @@ We used seven input variables selected (explanatory variables):
 5. One year forward contract price, EUR
 6. Brent oil price prognosis, EUR
 7. Coal price, EUR
+
+The dataset sata used is entitled: ' #E_data.xlsx'. In addition you will need another dataset entitled ' to reproduce the plots plot of the loss functions (MAE,MSE, Theil UI, Theil UII, Theil UII square) where the true target value is 100, and the predicted values range between -10,000 to 10,000.
+
+1. 
 
 # Missing Values
 In this study, we deployed five different techniques to deal with missing values and compared their results before finally selecting the most optimal one for our dataset:
