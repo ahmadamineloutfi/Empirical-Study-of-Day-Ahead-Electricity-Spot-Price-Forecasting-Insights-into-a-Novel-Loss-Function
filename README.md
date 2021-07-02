@@ -26,7 +26,7 @@ We used seven input variables selected (explanatory variables):
 
 The main dataset set used is entitled: 
 - ' #E_data.xlsx'. 
-- 
+
 # Models Building
 To ensure that our results were robust and not specific to any one neural network architecture, we developed five models to test our loss function: FFNN, convolutional neural network (CNN), recursive neural network (RNN), long-short term memory neural network (LSTM), and gated recurrent unit (GRU) neural network.
 Our design follows the principles of simplicity, where we keep each model at 1 hidden layer with 64 corresponding neurons. As the activation function, we primarily used ReLU. We also used the RMSprop as the optimization algorithm for the models’ stochastic gradient descent.
