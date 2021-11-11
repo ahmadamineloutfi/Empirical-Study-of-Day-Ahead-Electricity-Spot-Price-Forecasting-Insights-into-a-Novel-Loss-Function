@@ -36,7 +36,7 @@ To reproduce the results you need the following python files:
 2. 'KNN.PY': to import 'KNN' technique module.
 3. 'loss.py': to import the loss functions (MAE, MSE, Theill UII, Theill UII square) module.
 4. 'metric.py': to import the evaluation metrics (MAE & MSE) module.
-5. 'model.py': to import the models (FFNN,CNN,LSTM,RNN,GRU) module. 
+5. 'model.py': to import the neural netwroks models (FFNN,CNN,LSTM,RNN,GRU) module. 
 
 # Missing Values
 In this study, we deployed five different techniques to deal with missing values and compared their results before finally selecting the most optimal one for our dataset:
